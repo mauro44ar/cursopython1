@@ -13,3 +13,9 @@ print(segundos)
 
 print (resultado)
 
+print(id(primero))
+
+print(id(segundos))
+
+print(id(resultado))
+
