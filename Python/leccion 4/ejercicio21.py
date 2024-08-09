@@ -12,6 +12,13 @@ nombre= input('ingrese el nombre del libro: ')
 
 precio = float(input('ingrese precio del libro:  '))
 
-envio = input('el envio es gratuito ( true or False):  ')
+envio =  input('el envio es gratuito ( True or False):  ')
 
+if envio =='True':
+    envio=True
+elif envio == 'False':
+    envio=False 
+else:
+    envio =' valor incorrecto, debe escribir True o False'
+    
 print (f' el id {ids} pertenece al libro {nombre} su valor es {precio} y el envio es gratuito {envio}')
