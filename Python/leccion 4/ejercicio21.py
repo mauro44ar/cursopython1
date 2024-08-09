@@ -21,4 +21,8 @@ elif envio == 'False':
 else:
     envio =' valor incorrecto, debe escribir True o False'
     
-print (f' el id {ids} pertenece al libro {nombre} su valor es {precio} y el envio es gratuito {envio}')
+print (f''' 
+       id {ids} 
+       nombre del libro {nombre} 
+       precio {precio} 
+       envio es gratuito {envio}''')
